@@ -12,6 +12,66 @@
         <script src="../three.js-master/build/three.js"></script>
         <script>
             // Our Javascript will go here.
+
+            var scene = new THREE.Scene();
+            var camera = new THREE.PerspectiveCamera(75,
+                window.innerWidth/window.innerHeight, 0.1, 1000);
+
+            var renderer = new THREE.WebGLRenderer();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            document.body.appendChild(renderer.domElement);
+
+            var geometry1 = new THREE.BoxGeometry();
+            var material1 = new THREE.MeshBasicMaterial( {color: 0x5f1282} );
+            var cube1 = new THREE.Mesh(geometry1, material1);
+
+            var geometry2 = new THREE.BoxGeometry();
+            var material2 = new THREE.MeshBasicMaterial( {color: 0x7E8212} );
+            var cube2 = new THREE.Mesh(geometry2, material2);
+
+            var geometry3 = new THREE.BoxGeometry();
+            var material3 = new THREE.MeshBasicMaterial( {color: 0x128237} );
+            var cube3 = new THREE.Mesh(geometry3, material3);
+
+            scene.add(cube1);
+            scene.add(cube2);
+            scene.add(cube3);
+
+            cube2.position.x = 2
+            cube2.position.y = 2
+
+            cube3.position.x = -2
+            cube3.position.y = 2
+
+            camera.position.z = 5; //this moves the camera towards the viewer
+
+            var counter = 0;
+
+            function animate() {
+              counter = counter + .5;
+              geometry1.rotateX(0.01);
+              geometry1.rotateY(-0.01);
+
+              if (counter < 150) {
+                geometry1.scale(1 + (counter * .00003), 1 + (counter*.00003), 1 + (counter*.00003) );
+              }
+
+              geometry2.rotateX(0.05);
+              //geometry2.scale(1,1,0);
+              if (counter < 200) {
+                geometry2.translate(-.01, -.01, 0);
+              }
+              geometry2.rotateY(0.025);
+
+              geometry3.rotateX(0.02);
+              geometry3.rotateY(0.01);
+              geometry3.rotateZ(0.02);
+
+              requestAnimationFrame(animate);
+              renderer.render(scene, camera);
+            }
+            animate();
+
         </script>
     </body>
 </html>
