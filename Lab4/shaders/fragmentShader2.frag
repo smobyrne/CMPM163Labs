@@ -1,16 +1,13 @@
-varying vec3 vUv;
-varying vec3 count;
+uniform sampler2D texture1;
+varying vec2 vUv;
 
 uniform vec3 colorA;
 uniform vec3 colorB;
-uniform vec3 colorC;
 
 void main() {
 
+  // sample from the texture based on the uv coordinates
+  vec2 vUv = mod(vUv, 0.5);
+  gl_FragColor = texture2D(texture1, vUv*2.0);
 
-  if(gl_FragCoord.z < .98){
-    gl_FragColor = vec4(mix(colorA, colorB, vUv.y), 1.0);
-  } else {
-    gl_FragColor = vec4(mix(colorA, colorC, vUv.x), 1.0);
-  }
 }
