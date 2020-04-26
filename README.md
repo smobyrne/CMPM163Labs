@@ -25,6 +25,20 @@ Cube Description (Left to Right):
 
 ### Lab4 Links ###
 
+Video: https://drive.google.com/file/d/15fZyr5HU_z1h3WkJ2qSLsGCIjmNLqBIA/view?usp=sharing
+
+Cube Descriptions (Top to Bottom, Left to Right)
+
+Cube #1: This cube uses the built-in Three.js functions to texture the cube using image 195.
+
+Cube #2: This cube uses the built-in Three.js functions to apply the same texture as Cube #1 with Normal Map 195.
+
+Cube #3: This cube uses the built-in Three.js functions to apply texture 173b and Normal Map 172 to the cube.
+
+Cube #4: This cube uses custom vertex and fragment shaders, specifically texture2D to apply texture 172 to the cube baed on the resulting texels from vUv. 
+
+Cube #5: This cube uses the same vertex shader as Cube #4 with a new fragment shader. This new fragment shader tiles texture 176 in a 2x2 grid by taking the mod of vUv and .5 and multiplying the vUv parameter in texture2D by 2.0. 
+
 Answers to Question 24:
 
   A. x-value = u * 7
