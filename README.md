@@ -46,3 +46,22 @@ Answers to Question 24:
   B. y-value = (1 - v) * 7
 
   C. White
+  
+  
+## Lab5 Links ##
+# (Part 1) #
+
+Video: https://drive.google.com/file/d/1d9cMXqqWTpz4jSZWgeVZggQ7TceYzGNj/view?usp=sharing 
+
+Modfications:
+- Implemented particle system on Kart so it emits blue glowing orbs. Added random gravity, start color, and modified the shape of the system so particles are emmitted from Kart towards camera.
+
+- Modified Directional Light. Changed color of light (yellow), increased intensity, switched to hard shadows, and enabled a halo on the light.
+
+- Manipulated Track Design to include removed portion, deleted unused track. Added trees, rocks, and satellite disk to environment.
+
+- Added prefab particle system to emit particles when Kart bounces into object. Modified system to change color, frequency of particles.
+
+- Added prefab Trail so Kart emits rainbow trail while in motion.
+
+
