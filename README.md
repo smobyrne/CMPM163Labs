@@ -64,4 +64,21 @@ Modfications:
 
 - Added prefab Trail so Kart emits rainbow trail while in motion.
 
+## Lab6 Links ##
+# (Part 1) #
 
+<img src='Screenshots/Lab6_1.JPG' width="325"> <img src='Screenshots/Lab6_2.JPG' width="325">
+
+Definitions:
+A point light is a light that emits color in all directions from a specific point.
+A spotlight is a light that emits color at a specific angle from a specific point.
+A directional light has emits light from a specifc direction that hits all objects in the scene.
+An area light emits light from a rectangular face, but is calculated before runtime and applied to the scene using light maps.
+
+I made a copper material using the standard shader and increasing the metallic attribute and smoothness attribute. I used color #b87333.
+
+<img src='Screenshots/Lab6_3.JPG' width="325"> <img src='Screenshots/Lab6_4.jpg' width="325">
+
+I used a grass texture on the ground plane and a drywall texture on the stacked rectangles.
+
+I added a sunny skybox with circling clouds to the scene also. 
