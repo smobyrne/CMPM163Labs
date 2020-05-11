@@ -64,4 +64,7 @@ Modfications:
 
 - Added prefab Trail so Kart emits rainbow trail while in motion.
 
+## Lab6 Links ##
+# (Part 1) #
 
+<img src='Screenshots/CMPM163_Lab6_Part1.PNG' width="750"> <img src='Screenshots/CMPM163_Lab6_Part2.PNG' width="750">
