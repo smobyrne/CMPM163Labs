@@ -67,4 +67,4 @@ Modfications:
 ## Lab6 Links ##
 # (Part 1) #
 
-<img src='Screenshots/CMPM163_Lab6_Part1.PNG' width="750"> <img src='Screenshots/CMPM163_Lab6_Part2.PNG' width="750">
+<img src='Screenshots/Lab6_1.PNG' width="325"> <img src='Screenshots/Lab6_2.PNG' width="325">
