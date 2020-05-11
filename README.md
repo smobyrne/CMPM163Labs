@@ -79,3 +79,6 @@ I made a copper material using the standard shader and increasing the metallic a
 
 <img src='Screenshots/Lab6_3.JPG' width="325"> <img src='Screenshots/Lab6_4.jpg' width="325">
 
+I used a grass texture on the ground plane and a drywall texture on the stacked rectangles.
+
+I added a sunny skybox with circling clouds to the scene also. 
