@@ -67,4 +67,4 @@ Modfications:
 ## Lab6 Links ##
 # (Part 1) #
 
-<img src='Screenshots/Lab6_1.jpg' width="325"> <img src='Screenshots/Lab6_2.jpg' width="325">
+<img src='Screenshots/Lab6_1.JPG' width="325"> <img src='Screenshots/Lab6_2.JPG' width="325">
