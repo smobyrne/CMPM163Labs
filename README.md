@@ -95,4 +95,9 @@ Partner: My partner did not have their name on Discord so I wasn't able to conta
 ## Lab8 Links ##
 # (Part 1) #
 
+Tutorial ScreenShot:
 <img src='Screenshots/Lab8_1.JPG' width="750">
+
+Inspiration & Result:
+
+Changes:
