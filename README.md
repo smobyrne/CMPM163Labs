@@ -104,3 +104,7 @@ Inspiration (Dublin) & Result:
 <img src='Screenshots/Lab8_2.jpg' width="325">
 
 Changes:
+- Added Water Component to simulate rivers
+- Modified scale (y) of some buildings to create more height difference
+- Reordered if-else conditions so water is associated more with buildings than with grass.
+- Added skybox and modified directional light to match
