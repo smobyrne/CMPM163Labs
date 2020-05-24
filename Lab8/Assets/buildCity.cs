@@ -23,16 +23,18 @@ public class buildCity : MonoBehaviour
 
              if (result < 2)
                Instantiate(buildings[0],pos,Quaternion.identity);
-             else if (result < 4)
+             else if (result < 3)
                Instantiate(buildings[1],pos,Quaternion.identity);
+             else if (result < 4)
+               Instantiate(buildings[6],pos,Quaternion.identity);
              else if (result < 6)
-               Instantiate(buildings[2],pos,Quaternion.identity);
-             else if (result < 7)
                Instantiate(buildings[3],pos,Quaternion.identity);
-             else if (result < 8)
+             else if (result < 7)
                Instantiate(buildings[4],pos,Quaternion.identity);
-             else if (result < 10)
+             else if (result < 8)
                  Instantiate(buildings[5],pos,Quaternion.identity);
+             else if (result < 10)
+                 Instantiate(buildings[2],pos,Quaternion.identity);
             }
          }
 
