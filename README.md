@@ -99,6 +99,6 @@ Tutorial ScreenShot:
 <img src='Screenshots/Lab8_1.JPG' width="750">
 
 Inspiration (Dublin) & Result:
-<img src='Screenshots/Lab8_1.JPG' width="325">
+<img src='Screenshots/Lab8_2.jpg' width="325">
 
 Changes:
