@@ -98,6 +98,7 @@ Partner: My partner did not have their name on Discord so I wasn't able to conta
 Tutorial ScreenShot:
 <img src='Screenshots/Lab8_1.JPG' width="750">
 
-Inspiration & Result:
+Inspiration (Dublin) & Result:
+<img src='Screenshots/Lab8_1.JPG' width="325">
 
 Changes:
