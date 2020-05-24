@@ -95,10 +95,12 @@ Partner: My partner did not have their name on Discord so I wasn't able to conta
 ## Lab8 Links ##
 # (Part 1) #
 
-Tutorial ScreenShot:
+Tutorial Screenshot:
+
 <img src='Screenshots/Lab8_1.JPG' width="750">
 
 Inspiration (Dublin) & Result:
+
 <img src='Screenshots/Lab8_2.jpg' width="325">
 
 Changes:
