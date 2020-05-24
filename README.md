@@ -101,7 +101,7 @@ Tutorial Screenshot:
 
 Inspiration (Dublin) & Result:
 
-<img src='Screenshots/Lab8_2.jpg' width="325"><img src='Screenshots/Lab8_3.jpg' width="325">
+<img src='Screenshots/Lab8_2.jpg' width="325"><img src='Screenshots/Lab8_3.JPG' width="325">
 
 Changes:
 - Added Water Component to simulate rivers
