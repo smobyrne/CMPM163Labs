@@ -99,7 +99,7 @@ Tutorial Screenshot:
 
 <img src='Screenshots/Lab8_1.JPG' width="750">
 
-Inspiration (Dublin) & Result:
+Inspiration (Venice) & Result:
 
 <img src='Screenshots/Lab8_2.jpg' width="325"><img src='Screenshots/Lab8_3.JPG' width="325">
 
@@ -108,3 +108,6 @@ Changes:
 - Modified scale (y) of some buildings to create more height difference
 - Reordered if-else conditions so water is associated more with buildings than with grass.
 - Added skybox and modified directional light to match
+
+Partner Check-In:
+For the creative portion of the lab, my partner recreated Florida with its high buildings and grassy areas. I thought it was cool they made the water reflective. We did not help each other on the lab assignment.
